@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Wa's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="overlay"></div>
+    
+    <header>
+        <div class="terminal-nav">
+            <div class="terminal-prompt">
+                <span class="terminal-user">my@portfolio</span>:<span class="terminal-path">~/resume</span>$ <span class="terminal-cursor">_</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#education">education</a></li>
+                    <li><a href="#experience">experience</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#publications">publications</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="glitch-wrapper">
+                    <h1 class="glitch" data-text="ALEX WA">ALEX WA</h1>
+                </div>
+                <h2 class="subtitle">FRESHMAN <span class="accent">|</span> MATHEMATICIAN <span class="accent">|</span> COMPUTER SCIENTIST</h2>
+                <div class="hero-description">
+                    <!-- do not change below line -->
+                    <p>Exploring <span class="highlight">complex problems</span> through <span class="highlight">innovative research</span></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/alex-wa/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:alex.wa@yale.edu"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> About Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hello, I'm Alex Wa, a freshman studying mathematics and computer science with an interest in machine learning and mathematical modeling. I have years of experience in math competitions and in math-related research.</p>
+                        
+                        <div class="terminal-box">
+                            <div class="terminal-header">
+                                <span class="terminal-dot red"></span>
+                                <span class="terminal-dot yellow"></span>
+                                <span class="terminal-dot green"></span>
+                                <span class="terminal-title">alex@research:~</span>
+                            </div>
+                            <div class="terminal-body">
+                                <p><span class="command">$ cat contact_info.txt</span></p>
+                                <p>Email: alex.wa@yale.edu</p>
+                                <p>Phone: +1-678-860-8068</p>
+                                <p><span class="command">$ cat research_interests.txt</span></p>
+                                <div id="research-interests-container">
+                                    <div class="research-interest">
+                                        <p class="research-field">Machine Learning</p>
+                                        <p class="research-description">Interest in developing novel neural network architectures and mathematical modeling.</p>
+                                    </div>
+                                </div>
+                                <p><span class="command">$</span><span class="terminal-cursor">_</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Education</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="education-container" id="education-container">
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">B.S. in Mathematics, Computer Science</div>
+                            <div class="item-date">May 2028</div>
+                        </div>
+                        <div class="item-subtitle">Yale University</div>
+                    </div>
+                    
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">High School Diploma</div>
+                            <div class="item-date">May 2024</div>
+                        </div>
+                        <div class="item-subtitle">The Westminster Schools</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Work Experience</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="experience-container" id="experience-container">
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Machine Learning Researcher</div>
+                            <div class="item-date">Jan 2025 – Present</div>
+                        </div>
+                        <div class="item-subtitle">APOLLO Labs (Yale University)</div>
+                        <ul class="item-description">
+                            <li>Developing novel neural network architecture/parametrization using geometric algebra for computer vision</li>
+                            <li>Designing efficient multi-vector exponentiation and geometric product algorithms</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Python</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Student Researcher</div>
+                            <div class="item-date">Jan 2023 – Dec 2023</div>
+                        </div>
+                        <div class="item-subtitle">Emory University</div>
+                        <ul class="item-description">
+                            <li>Analyzed clinical biomarkers for coronary artery/aortic diameters via adjusted regression models with Cox Odds ratio, and machine learning integrated discrimination improvement models</li>
+                            <li>Authored a research paper (with literature review) synthesizing statistical methods with medical data analysis</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Projects</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="projects-grid" id="projects-container">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Machine Learning for CNNs and Mech Interp</h3>
+                        <p class="project-duration">Dec 2024 – Jan 2025</p>
+                        <p class="project-description">Engineered and trained a custom GPT using GPT-2 architecture from scratch, implementing interpretability techniques including induction head ablation and induction circuit decomposition. Improved architecture of modern deep CNNs for 97% accuracy on Fashion-MNIST.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li>Implemented models of superposition and sparse auto-encoders on transformers via interpretability techniques</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Stress Testing Loan Defaults</h3>
+                        <p class="project-duration">Jun 2024 – Nov 2024</p>
+                        <p class="project-description">Developed time-series analysis using SBA + Federal Reserve data to stress-test 5-year cumulative PD with baseline / severely adverse scenarios. Performed multivariate big-data analysis of the SBA 7(a) loan dataset for default probabilities and losses.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>SQL</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li>Generated 30+ dependency lists with year-by-year trends</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Publications</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="publications-container" id="publications-container">
+                    <div class="publication-item">
+                        <h3 class="publication-title">Constructibility of n-gons and the Gauss-Wantzel Theorem</h3>
+                        <div class="publication-meta">
+                            <span class="publication-year">2022/23</span>
+                        </div>
+                        <div class="publication-authors">
+                            <p>Alex Wa</p>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h3 class="publication-title">Braid groups, knot invariants, and the Yamada-Vogel Algorithm</h3>
+                        <div class="publication-meta">
+                            <span class="publication-year">2022/23</span>
+                        </div>
+                        <div class="publication-authors">
+                            <p>Alex Wa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Technical Skills</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>C++</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-java"></i>
+                                <span>Java</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <div class="skill-items" id="technical-skills-container">
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>SQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>C</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-apple"></i>
+                                <span>XCode</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="awards">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Honors & Awards</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="awards-container" id="awards-container">
+                    <div class="award-item">
+                        <div class="item-header">
+                            <div class="item-title">USA(J)MO qualifier</div>
+                        </div>
+                        <div class="item-subtitle">United States of America Mathematical Olympiad</div>
+                    </div>
+                    
+                    <div class="award-item">
+                        <div class="item-header">
+                            <div class="item-title">Yale Engineering and Science (YES) Scholar</div>
+                        </div>
+                        <div class="item-subtitle">Yale University</div>
+                    </div>
+                    
+                    <div class="award-item">
+                        <div class="item-header">
+                            <div class="item-title">1st place in state math competitions</div>
+                        </div>
+                        <div class="item-subtitle">KSU Mathematics Competition, GCTM Competition, Rockdale HS Math Competition</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Contact Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p>I'm always open to research collaborations and interesting projects. Feel free to reach out!</p>
+                    </div>
+                    <div class="contact-methods">
+                        <a href="mailto:alex.wa@yale.edu" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>alex.wa@yale.edu</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/alex-wa/" target="_blank" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/alex-wa/</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>© 2025 Alex Wa | Freshman & Mathematician</p>
+                </div>
+                <div class="footer-links">
+                    <a href="mailto:alex.wa@yale.edu"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
